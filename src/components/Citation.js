@@ -7,7 +7,7 @@ class Citation extends React.Component {
 			
 			<div>
 				<div id="citation">	{this.props.details.citation}</div>
-				<div id="auteur"> - {this.props.details.auteur}</div>
+				<div id="auteur"> {this.props.details.auteur}</div>
 			</div>
 
 		)
