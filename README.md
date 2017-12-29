@@ -20,7 +20,7 @@ No such thing yet, might be fun to do that.
 
 ## Contributors
 
-twitter.com/fabienmartin , based on https://twitter.com/AnthoWelc tutorial.
+https://twitter.com/fabienmartin , based on https://twitter.com/AnthoWelc tutorial.
 
 ## License
 
