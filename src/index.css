@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding-bottom: 0;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+*::selection {
+  color: white; 
+  background: #F50057;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	align-items: center;
+	font-size: 30px;
+	font-family: monospace;
+	color: #263238;
+	text-shadow: #fff 0 0 10px;
+	
+	/*border: 5px solid purple;*/
+}
+
+#root > * {
+	width: 100%;
+	min-height: 800px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	justify-content: center;
+}
+
+span {
+	display: inline;
+	text-align: right;
+	margin-top: 50px;
+	color: #455A64;
+}
+
+@keyframes citationAnim {
+   0%  {
+   	transform : rotate(10deg);
+   	margin-bottom: 0px;
+   	left: -1000px;
+   }
+    100% {
+    	transform : rotate(-5deg);
+	    margin-bottom: 10px;
+	    left: 0px;
+	}
+}
+/*
+@keyframes citationAuteur {
+   0%  {
+   	transform : rotate(-10deg);
+   	margin-bottom: 0px;
+   	left: 2000px;
+   }
+    100% {
+    	transform : rotate(5deg);
+	    margin-bottom: 10px;
+	    left: 0px;
+	}
+}
+*/
+#citation {
+	position: relative;
+	display: block;
+	line-height: 40px;
+	margin-top: 100px;
+	background: #F50057;
+	text-align: center;
+	/*transform : rotate(0deg);
+	animation: citationAnim 0.2s ease-out both;
+	animation-delay: 0s;*/
+	
+}
+
+#auteur {
+	display: block;
+	color:#F50057;
+	display: block;
+	/*animation: citationAuteur 0.8s ease-out both;
+	animation-delay: 0s;*/
+	float: right;
+	clear:after;
+	background-color: #ffff00;
+}
+
+button {
+	width: 100%;
+	font-size: 20px;
+	padding: 5px;
+	font-family: monospace;
+	border: none;
+	background-color: #0091EA;
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	transition: 0.2s;
+}
+button:active {
+	transform: translateY(5px);
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+}
+
