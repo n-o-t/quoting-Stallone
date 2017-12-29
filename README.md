@@ -8,7 +8,7 @@ This project is for the upcoming new year's eve, where and when I should disguis
 
 ## Installation
 
-npm build and run, provided node and express are in da house.
+npm build and run, provided node and express are in da house. 
 
 ## API Reference
 
@@ -20,7 +20,7 @@ No such thing yet, might be fun to do that.
 
 ## Contributors
 
-twitter.com/fabienmartin
+twitter.com/fabienmartin , based on https://twitter.com/AnthoWelc tutorial.
 
 ## License
 
